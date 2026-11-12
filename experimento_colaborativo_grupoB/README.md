@@ -27,5 +27,5 @@ Se evalúa el impacto del esquema de validación durante el *Hyperparameter Tuni
 
 ### 3. Estructura de Archivos y Reproducción
 
-* **`621_WorkFlow_01_junior_grupoB.R`**: Script principal autocontenido y reproducible. Ejecuta el preprocesamiento, el motor experimental de 10 semillas para `E0`, `E1`, `E2` (y la extensión de 6 meses `E3`, `E4`), genera las curvas de ganancia suavizada (media móvil centrada de ventana 400 en `202107`) y ejecuta los tests de los rangos con signo de **Wilcoxon pareados**.
+* **`621_WorkFlow_01_junior_grupo10B.R`**: Script principal autocontenido y reproducible. Ejecuta el preprocesamiento, el motor experimental de 10 semillas para `E0`, `E1`, `E2` (y la extensión de 6 meses `E3`, `E4`), genera las curvas de ganancia suavizada (media móvil centrada de ventana 400 en `202107`) y ejecuta los tests de los rangos con signo de **Wilcoxon pareados**.
 * **`resumen_consolidado_10semillas.txt`**: Tabla maestra con los hiperparámetros óptimos, `AUC` de validación, ganancia máxima suavizada, envíos óptimos y auditoría de bordes para cada semilla y experimento.
